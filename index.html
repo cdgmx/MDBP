@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="height=device-height, initial-scale=1.0">
+  
+
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design for Bootstrap</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+
+
+    <!--Always be in top MDP-pro css --->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/effect1.css" />
+    <script src="js/modernizr.custom.js"></script>
+  
+  <!--Datatable CSS-->
+<link rel='stylesheet' href='https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css'>
+<link rel='stylesheet' href='https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css'>
+<link rel='stylesheet' href='https://cdn.datatables.net/select/1.3.1/css/select.dataTables.min.css'>
+<link rel='stylesheet' href='https://cdn.datatables.net/buttons/1.6.1/css/buttons.dataTables.min.css'>
+<link rel='stylesheet' href='https://cdn.datatables.net/colreorder/1.5.2/css/colReorder.dataTables.min.css'>
+
+
+  
+
+
+
+</head>
+<body>
+
+ 
+	<div id="ip-container">
+    <!-- initial header -->
+    <header class="ip-header">
+      <div class="svg-animation"></div>
+      
+      <div class="svg-animation2"></div>
+   
+      <h1 class="ip-logo">
+        
+      </h1>
+      <div class="ip-loader">
+       
+        <svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
+          <path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+         
+          <path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+        </svg>
+
+        <!-- <div class="svg-animation"></div> -->
+      </div>
+    
+    </header>
+
+    <!-- top bar -->
+  </div>
+  <!-- /container -->
+ 
+
+  <div class="app">
+   
+  <!-- Start your project here-->  
+
+  <!-- SideNav slide-out button -->
+<a href="#" data-activates="slide-out" class="btn-floating blue-gradient button-collapse btn-lg"><i
+  class="fas fa-bars"></i></a>
+
+<!-- Sidebar navigation -->
+<div id="slide-out" class="side-nav fixed special-color-dark">
+<ul class="custom-scrollbar">
+  <!-- Logo -->
+  <li>
+    <div class="logo-wrapper waves-light">
+      <a href="#"><img src="https://mdbootstrap.com/img/logo/mdb-transparent.png"
+          class="img-fluid flex-center"></a>
+    </div>
+  </li>
+  <!--/. Logo -->
+  <!--Social-->
+  <li>
+    <ul class="social">
+      <li><a href="#" class="icons-sm fb-ic"><i class="fab fa-facebook-f"> </i></a></li>
+      <li><a href="#" class="icons-sm pin-ic"><i class="fab fa-pinterest"> </i></a></li>
+      <li><a href="#" class="icons-sm gplus-ic"><i class="fab fa-google-plus-g"> </i></a></li>
+      <li><a href="#" class="icons-sm tw-ic"><i class="fab fa-twitter"> </i></a></li>
+    </ul>
+  </li>
+  <!--/Social-->
+  <!--Search Form-->
+  <li>
+    <form class="search-form" role="search">
+      <div class="form-group md-form mt-0 pt-1 waves-light">
+        <input type="text" class="form-control" placeholder="Search">
+      </div>
+    </form>
+  </li>
+  <!--/.Search Form-->
+  <!-- Side navigation links -->
+  <li>
+    <ul class="collapsible collapsible-accordion">
+      <li><a class="collapsible-header waves-effect"><i class="fas fa-chevron-right"></i> Submit
+          blog</a>
+      </li>
+      <li><a class="collapsible-header waves-effect"><i class="far fa-hand-pointer"></i>
+          Instruction</a>
+      </li>
+      <li><a class="collapsible-header waves-effect"><i class="fas fa-eye"></i> About</a>
+      </li>
+      <li><a class="collapsible-header waves-effect"><i class="far fa-envelope"></i> Contact me</a>
+      </li>
+    </ul>
+  </li>
+  <!--/. Side navigation links -->
+</ul>
+<div class="sidenav-bg"></div>
+</div>
+<!--/. Sidebar navigation -->
+ 
+
+<!--Sections body-->
+
+
+  <section>
+  <div class='content'><div id="chart-temperature" class="container-xl-fluid"></div></div>
+  </section>
+  <section >
+  <div class='content'  >
+    
+   <!-- <div class="table-responsive"> -->
+    <table id="example"  class="display nowrap" style="width:100%" >  
+      <tfoot>
+          <tr>
+              <th>Name</th>
+              <th>Position</th>
+              <th>Office</th>
+              <th>Age</th>
+              <th>Start</th> 
+          </tr>
+      </tfoot>
+    </table>
+<!-- </div class="table-responsive">> -->
+  
+  </div>
+  </section>  
+  <section>
+  <div class='content' id='three'>
+    <div id="chart" ></div>
+  </div>
+  </section>   
+  <section>
+  <div class='content' id='four'></div>
+  </section>
+  <section>
+  <div class='content' id='five'></div>
+  </section>
+
+ 
+  
+ 
+ 
+</div>
+ 
+  <!--Sections body-->
+
+  <!-- End your project here-->
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="tablescript.js"></script>
+
+  <!-- Scrolling snap -->
+  <!-- <script type="text/javascript" src="https://bundle.run/css-scroll-snap-polyfill@0.1.2"></script> -->
+
+  <!--Lottie Animati on-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.5/lottie.min.js"></script>
+
+  <!--Highcharts-->
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/modules/data.js"></script>
+  <script src="https://code.highcharts.com/modules/exporting.js"></script>
+  <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+  <!--Preloader-->
+  <script src="js/classie.js"></script>
+	<script src="js/pathLoader.js"></script>
+  <script src="js/main.js"></script>
+
+  <!--Datatables-->
+  <script  src="https://cdn.datatables.net/colreorder/1.5.2/js/dataTables.colReorder.min.js"></script>
+  <script  src="https://cdn.datatables.net/select/1.3.1/js/dataTables.select.min.js"></script>
+  <script src='https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js'></script>
+  <script src='https://cdn.datatables.net/rowreorder/1.2.6/js/dataTables.rowReorder.min.js'></script>
+  <script src='https://cdn.datatables.net/fixedheader/3.1.6/js/dataTables.fixedHeader.min.js'></script>
+  <script  src="https://cdn.datatables.net/buttons/1.6.1/js/dataTables.buttons.min.js"></script>
+  <script  src="https://cdn.datatables.net/buttons/1.6.1/js/buttons.flash.min.js"></script>
+  <script  src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+  <script  src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+  <script  src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+  <script  src="https://cdn.datatables.net/buttons/1.6.1/js/buttons.html5.min.js"></script>
+  <script  src="https://cdn.datatables.net/buttons/1.6.1/js/buttons.print.min.js"></script>
+  <script  src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+  <script  src="https:////cdn.datatables.net/plug-ins/1.10.20/features/pageResize/dataTables.pageResize.min.js"></script> <!---For resizing of table-->
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+
+  
+    const timezone = new Date().getTimezoneOffset()
+    
+    Highcharts.setOptions({
+        global: {
+            timezoneOffset: timezone
+        }
+    });
+    
+    var chartT = new Highcharts.Chart({
+      chart:{
+           renderTo: 'chart-temperature',
+           
+        },
+      title: { text: 'MQ7 Reading' },
+      series: [{
+        showInLegend: false,
+        data: []
+      }],
+      plotOptions: {
+        line: { animation: false,
+          dataLabels: { enabled: true }
+        },
+        series: { color: '#059e8a' }
+      },
+      xAxis: { type: 'datetime',
+        dateTimeLabelFormats: { second: '%H:%M:%S' }
+      },
+      yAxis: {
+        title: { text: 'Carbon Monoxide Level)' }
+        //title: { text: 'Temperature (Fahrenheit)' }
+      },
+      credits: { enabled: false }
+    });
+
+  
+
+   
+
+
+    setInterval(function ( ) {
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          var x = (new Date()).getTime(),
+              y = parseFloat(this.responseText);
+          //console.log(this.responseText);
+          if(chartT.series[0].data.length > 40) {
+            chartT.series[0].addPoint([x, y], true, true, true);
+          } else {
+            chartT.series[0].addPoint([x, y], true, false, true);
+          }
+        }
+      };
+      xhttp.open("GET", "/colvl", true);
+      xhttp.send();
+    }, 2000 ) ;
+    
+    </script>
+
+
+
+</body>
+</html>

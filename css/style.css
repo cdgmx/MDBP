@@ -1,0 +1,119 @@
+/* Styles */
+html,body {
+ 
+    height: 100%;
+    
+  
+    margin:0;
+  
+  }
+
+  .content {
+    height:100%;
+    
+    min-height:100%;/*for mozilla*/
+    min-height: -webkit-fill-available;
+  }
+
+  .container-xl-fluid
+  {
+      height: 100%;
+  }
+  
+  html>body .content {
+    height:100%;
+  }
+  
+  #one {
+    background: url(http://cloud.niklausgerber.com/1b0r2D2Z1y0J/dark-red.png) center center no-repeat scroll #520E24;
+  }
+  
+  #two {
+    background: url(http://cloud.niklausgerber.com/1a2n2I3J1h0M/red.png) center center no-repeat scroll #8F2041;
+  }
+  
+  #three {
+    background: url(http://cloud.niklausgerber.com/1X180T1X2v3d/dark-orange.png) center center no-repeat scroll #DC554F;
+  }
+  
+  #four {
+    background: url(http://cloud.niklausgerber.com/432W0y1g2h05/orange.png) center center no-repeat scroll #FF905E;
+  }
+  
+  #five {
+    background: url(http://cloud.niklausgerber.com/2N002H122B0d/yellow.png) center center no-repeat scroll #FFDB77;
+  }
+  
+  #webLogo img{
+  
+    
+    width:30px;
+  
+  }
+
+  
+  /* @media (max-width: 480px) {
+    html,
+    body {
+      height: calc(100vh - 56px);
+    }
+  } */
+  
+  .app {
+    height: 100%;
+  }
+ 
+  .button-collapse {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    z-index: 10; 
+    opacity: 0.5;
+   }
+   .button-collapse:hover{
+    opacity: 1;
+   }
+  
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    font-family: sans-serif;
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: y mandatory;
+  }
+  section {
+    position: relative;
+    border-bottom: 1px solid rgb(191, 235, 34);
+    padding: 1rem;
+    height: 100%;
+    /* scroll-snap-align: start; */
+    scroll-snap-align: start;
+  
+    text-align: center;
+   
+  }
+  h1  {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+    width: 100%;
+    left: 0;
+    font-size: calc(1rem + 3vw);
+  }
+
+ 
+  /* ::-webkit-scrollbar{
+    width: 12px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent, #303030);
+    border-radius: 6px;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent, #0000cc);
+  } */
+
